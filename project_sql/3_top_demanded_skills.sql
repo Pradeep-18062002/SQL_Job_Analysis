@@ -8,3 +8,4 @@ WHERE job_postings_fact.job_title_short = 'Data Analyst'
 GROUP BY skills_dim.skills
 ORDER BY skill_count DESC
 LIMIT 5;
+/* High Deman Skills for data analyst Roles*/

@@ -32,3 +32,4 @@ WHERE skill_demand > 10
 ORDER BY avg_salary DESC,
   skill_demand DESC
 LIMIT 25;
+/*Optimal Skills and Pay*/

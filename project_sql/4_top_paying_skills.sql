@@ -10,7 +10,7 @@ GROUP BY skills_dim.skills
 ORDER BY avg_salary DESC
 LIMIT 25;
 /*
- Here are the key insights from the top 10 paying skills for Data Analysts and related roles based on the provided dataset:
+ Here are the key insights from the top 10 paying skills for Data Analysts and related roles based on the provided dataset:-
  
  1. Top Paying Skills:
  Pyspark and Bitbucket are the highest-paying skills in this dataset, with average salaries above $200,000. This suggests that expertise in data processing (PySpark) and version control systems (Bitbucket) are in high demand and can command premium compensation.

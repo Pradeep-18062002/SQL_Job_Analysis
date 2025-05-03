@@ -45,6 +45,6 @@ FROM top_paying_jobs
  
  Other skills like Pandas, Excel, Azure, and Bitbucket are also commonly required, indicating a strong emphasis on data manipulation, cloud technologies, and version control.
  
- This indicates that Data Analyst roles in 2023 are heavily focused on data manipulation, programming, and data visualization. Additionally, there is a growing need for cloud technologies (like Azure and Snowflake).
+ This indicates that Data Analyst roles in 2023 are heavily focused on data manipulation, programming, and data visualization. Additionally, there is a growing need for cloud technologies (like Azure and Snowflake)
  
  */
