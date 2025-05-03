@@ -61,7 +61,7 @@ Key Insights:
 
 - Posting Timeline vs Salary: Higher-paying jobs were posted throughout the year, with no strong seasonal trend, although the latest posts seem to offer more competitive salaries.
 
-![Top-Paying_Jobs](assets\output.png)
+![Top-Paying_Jobs](assets/output.png)
 
 ### 2) Top Paying Jobs
 
@@ -97,7 +97,7 @@ Skills like SQL, Python, and R are among the most frequently listed, highlightin
 Highest Paying Skills:
 Skills such as AWS, Power BI, and Machine Learning are associated with higher average salaries, suggesting demand for cloud, BI, and AI expertise.
 
-![Skills associated with top paying jobs](assets\hhh.png)
+![Skills associated with top paying jobs](assets/hhh.png)
 
 ### 3) High Demand Skills
 
@@ -114,7 +114,7 @@ ORDER BY skill_count DESC
 LIMIT 5;
 ```
 
-![High Demand Skills](assets\output3.png)
+![High Demand Skills](assets/output3.png)
 
 Here is the Top In-Demand Skills chart:
 
@@ -139,7 +139,7 @@ LIMIT 25;
 
 ```
 
-![Top Paying Skill](assets\bbbb.png)
+![Top Paying Skill](assets/bbbb.png)
 
 PySpark, Bitbucket, and Couchbase are among the highest paying, each offering over $150,000+ on average.
 
@@ -184,7 +184,7 @@ ORDER BY avg_salary DESC,
 LIMIT 25;
 ```
 
-![Optimal Skill](assets\hvv.png)
+![Optimal Skill](assets/hvv.png)
 
 # What I Learned
 
