@@ -11,40 +11,9 @@ WITH top_paying_jobs AS (
   ORDER BY salary_year_avg DESC
   LIMIT 10
 )
-SELECT *
+SELECT top_paying_jobs.*,
+  skills
 FROM top_paying_jobs
   INNER JOIN skills_job_dim ON top_paying_jobs.job_id = skills_job_dim.job_id
-  INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id;
-/*
- Here are the top 10 most frequently required skills for the Data Analyst roles in your dataset:
- 
- SQL: 8 occurrences
- 
- Python: 7 occurrences
- 
- Tableau: 6 occurrences
- 
- R: 4 occurrences
- 
- Snowflake: 3 occurrences
- 
- Pandas: 3 occurrences
- 
- Excel: 3 occurrences
- 
- Azure: 2 occurrences
- 
- Bitbucket: 2 occurrences
- 
- Go: 2 occurrences
- 
- Insights:
- SQL and Python are the most in-demand skills, appearing in the majority of the roles.
- 
- Tableau, R, and Snowflake are also frequently mentioned, highlighting a demand for data visualization and cloud data tools.
- 
- Other skills like Pandas, Excel, Azure, and Bitbucket are also commonly required, indicating a strong emphasis on data manipulation, cloud technologies, and version control.
- 
- This indicates that Data Analyst roles in 2023 are heavily focused on data manipulation, programming, and data visualization. Additionally, there is a growing need for cloud technologies (like Azure and Snowflake)
- 
- */
+  INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
+ORDER BY salary_year_avg DESC;
